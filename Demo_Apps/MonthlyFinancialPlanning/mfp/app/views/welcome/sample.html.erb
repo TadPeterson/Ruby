@@ -6,8 +6,12 @@
 
 <%= "Using sample index via view/welcome" %>
 </br>
-
-
-
+</br>
+<%= "Message from controller : 
+#{@controller_message}" %>
+</br>
+</br>
+<%= link_to("Go to index", {:controller => 'welcome',
+	:action => 'index'}) %>
 
 

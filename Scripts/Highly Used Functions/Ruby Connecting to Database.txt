@@ -32,19 +32,3 @@ rake db:migrate
 rake db:seed
 
 
-
-GitHub Command
-cd to Ruby_Repo directory
-git init
-git remote add origin https://github.com/TadPeterson/Ruby
-git remote rm origin
-git add .
-git commit -m ""
-git status
-git remote -v
-git push -u origin master 
-git pull origin master
-
-
-
-

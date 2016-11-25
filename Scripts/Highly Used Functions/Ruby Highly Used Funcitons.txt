@@ -35,6 +35,9 @@ Using Sql Server
 http://rhnh.net/2010/10/10/rails-3-ruby-1-9-2-windows-2008-and-sql-server-2008-tutorial
 
 
+# Windows new app install issues
+modify Gemfile
+source 'https://rubygems.org' => source 'http://rubygems.org'
 
 
 # Windows machines initial error
@@ -44,8 +47,56 @@ In your /app/views/layouts/application.html.erb lines 5 and 6, change the first 
 
 
 
+# Adding bootstrap into app
+https://www.youtube.com/watch?v=Nf_Si8_szmM
+
+modify Gemfile
+gem 'bootstrap-sass'
+
+rename file
+app/assets/stylesheets/application.css => application.css.sass
+
+add 2 @import lines at end of application.css.sass
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+import gems via
+bundle install
+
+start rails server via
+rails server
+
+modify app/views/layouts/application.html.erb
+copy/paste entire section of code from startbootstrap website view live source code
+after <body>
+<!-- Navigation --> 
+
+after <%= yield %>
+<!-- Footer -->
+
+modify /app/views/startup/index.html.erb
+delete entire contents of original page
+copy/paste contents from startbootstrap website view live source code
+between end of
+<!-- Navigation --> 
+and start of
+<!-- Footer -->
 
 
+
+
+
+# GitHub Command
+cd to Ruby_Repo directory
+git init
+git remote add origin https://github.com/TadPeterson/Ruby
+git remote rm origin
+git add .
+git commit -m ""
+git status
+git remote -v
+git push -u origin master 
+git pull origin master
 
 
 
