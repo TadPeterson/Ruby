@@ -1,0 +1,91 @@
+Arrive at Mid-wives		330
+Leave House				315
+Arrive Home 			300
+Leave Work				215
+
+
+
+Tad Peterson
+
+
+
+7ujm&UJM6yhn^YHN
+
+
+"Tad", "Jen", "Jasmine", "TJ", "Tember", "Jersey"
+
+
+Tad
+Jen
+Jasmine
+TJ
+Tember
+Jersey
+
+
+I am a DBA for a company named CaptionCall.
+
+
+"Tad", "Jen", "Jasmine", "TJ", "Tember", "Jersey"
+
+
+Tad
+Jen
+Jasmine
+TJ
+Tember
+Jersey
+
+
+
+
+
+hash.each do |key, value|
+  puts key
+  puts value
+end
+
+
+
+
+
+puts "Hello there!"
+greeting = gets.chomp
+
+# Add your case statement below!
+case greeting
+    when "English" then puts "Hello!"
+    when "French" then puts "Bonjour!"
+    when "German" then puts "Guten Tag!"
+    when "Finnish" then puts "Haloo!"
+    else puts "I don't know that language."
+end
+
+
+
+It this case it is strictly a method naming convention. There is no enforcement of a boolean return value. 
+Just because the method name ends in a question mark doesn't mean that the method must return a boolean, 
+but it most definitely should return a boolean. However there are several other uses of 
+the ? in Ruby (is a ternary operator, converting a character to its ASCII integer, usage in test, 
+in RegEx'es, etc.) many of which are covered in the other answers here. 
+– Karl Wilbur Sep 11 '15 at 20:36
+
+
+
+my_array.each{ |x| puts x if x.even? }
+
+
+
+
+
+
+# Write your code below!
+"l".upto("p"){ |letter| puts letter.upcase }
+
+
+
+
+
+
+
+

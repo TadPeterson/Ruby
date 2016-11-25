@@ -1,0 +1,68 @@
+# Ruby Highly Use Functions
+
+
+
+hash.each do |key, value|
+  puts key
+  puts value
+end
+
+
+
+# Blocks, Procs, and Lambdas Explained
+Blocks
+A block is just a bit of code between do..end or {}. 
+It's not an object on its own, but it can be passed to methods like .each or .select.
+
+Proc
+A proc is a saved block we can use over and over.
+
+Lambda
+A lambda is just like a proc, only it cares about the number of arguments it gets and it returns to its calling method rather than returning immediately.
+
+
+# Building Ruby experience
+Most importantly have shipped two Rails apps that have solid features (authentification, scaling, REST api, search, admin dashboard etc.)
+
+
+
+
+# Install Rails
+https://www.youtube.com/watch?v=GY7Ps8fqGdc
+https://www.youtube.com/watch?v=eY1HCqe9MBc
+
+Using Sql Server
+http://rhnh.net/2010/10/10/rails-3-ruby-1-9-2-windows-2008-and-sql-server-2008-tutorial
+
+
+
+
+# Windows machines initial error
+ExecJS::ProgramError in Welcome#index
+In your /app/views/layouts/application.html.erb lines 5 and 6, change the first parameter from application to default.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
