@@ -20,7 +20,11 @@ Things you may want to cover:
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
-
+cd to mfp directory
+bundle install
+  if failure occurs, you might have to modify the Gemfile and change the https to http.
+  run bundle install again to install dependencies
+ rails server 
 * ...
 
 
