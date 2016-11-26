@@ -96,6 +96,7 @@ https://www.youtube.com/watch?v=ZPh19YUbC3A
 cd to Ruby_Repo directory
 git init
 git remote add origin https://github.com/TadPeterson/Ruby
+git remote add origin https://github.com/TadPeterson/Ruby.git
 git remote rm origin
 git add .
 git commit -m ""
