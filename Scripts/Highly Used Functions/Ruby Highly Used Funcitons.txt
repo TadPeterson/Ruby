@@ -108,6 +108,8 @@ https://www.youtube.com/watch?v=ZPh19YUbC3A
 
 # GitHub Command
 cd to Ruby_Repo directory
+git config --global user.name "Tad Peterson"
+git config --global user.email "Tad.Peterson.7@gmail.com"
 git init
 git remote add origin https://github.com/TadPeterson/Ruby
 git remote add origin https://github.com/TadPeterson/Ruby.git
