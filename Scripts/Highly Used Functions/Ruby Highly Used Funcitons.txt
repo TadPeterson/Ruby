@@ -26,18 +26,6 @@ Most importantly have shipped two Rails apps that have solid features (authentif
 
 
 
-# Install Ruby and Rails on Ubuntu; 1st choice
-http://railsapps.github.io/installrubyonrails-ubuntu.html
-
-
-
-# Install Ruby on Ubuntu
-sudo apt-get install ruby-full
-
-
-# Install Rails Ubuntu
-https://gorails.com/setup/ubuntu/16.10 -- this uses rbenv
-
 
 
 # Install Rails
@@ -105,6 +93,34 @@ https://www.youtube.com/watch?v=ZPh19YUbC3A
 
 
 
+
+
+# Install Ruby and Rails on Ubuntu
+https://gorails.com/setup/ubuntu/14.10 -- this uses rbenv
+Ruby 2.3.3
+Rails 5.0.0.1
+
+
+# Install Sublime Text 3
+sudo add-apt-repository ppa:webupd8team/sublime-text-3
+sudo apt-get update
+sudo apt-get install sublime-text-installer
+
+
+# Install Git & Download Ruby Svn Repository
+git config --global color.ui true
+git config --global user.name "Tad Peterson"
+git config --global user.email "Tad.Peterson.7@gmail.com"
+ssh-keygen -t rsa -b 4096 -C  "Tad.Peterson.7@gmail.com"
+cat ~/.ssh/id_rsa.pub
+ssh -T git@github.com
+cd ~
+mkdir ruby_repo
+cd ruby_repo
+git init
+git pull origin master
+
+
 # GitHub Command
 cd to Ruby_Repo directory
 git config --global user.name "Tad Peterson"
@@ -119,21 +135,6 @@ git status
 git remote -v
 git push -u origin master 
 git pull origin master
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
