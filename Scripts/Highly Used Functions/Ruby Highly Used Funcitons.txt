@@ -36,8 +36,7 @@ sudo apt-get install ruby-full
 
 
 # Install Rails Ubuntu
-https://gorails.com/setup/ubuntu/14.10 -- this uses rbenv
-
+https://gorails.com/setup/ubuntu/16.10 -- this uses rbenv
 
 
 
