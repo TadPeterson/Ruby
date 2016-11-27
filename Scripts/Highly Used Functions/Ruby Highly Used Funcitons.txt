@@ -25,8 +25,20 @@ A lambda is just like a proc, only it cares about the number of arguments it get
 Most importantly have shipped two Rails apps that have solid features (authentification, scaling, REST api, search, admin dashboard etc.)
 
 
-Install Rails Ubuntu
-https://gorails.com/setup/ubuntu/14.10
+
+# Install Ruby and Rails on Ubuntu; 1st choice
+http://railsapps.github.io/installrubyonrails-ubuntu.html
+
+
+
+# Install Ruby on Ubuntu
+sudo apt-get install ruby-full
+
+
+# Install Rails Ubuntu
+https://gorails.com/setup/ubuntu/14.10 -- this uses rbenv
+
+
 
 
 # Install Rails
