@@ -8,8 +8,15 @@ Download ISO
 Install via root user
 
 
+# Add user give sudo rights
+sudo adduser tad
+sudo usermod -a -G sudo tad
+sudo vi /etc/sudoers
+tad   ALL(ALL:ALL) ALL
+
+
 # Install Ruby and Rails on Ubuntu
-https://gorails.com/setup/ubuntu/14.10 -- this uses rbenv
+https://gorails.com/setup/ubuntu/16.10 -- this uses rbenv
 Ruby 2.3.3
 Rails 5.0.0.1
 
