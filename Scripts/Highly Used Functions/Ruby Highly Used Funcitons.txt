@@ -131,6 +131,7 @@ Most importantly have shipped two Rails apps that have solid features (authentif
 https://www.youtube.com/watch?v=GY7Ps8fqGdc
 https://www.youtube.com/watch?v=eY1HCqe9MBc
 
+
 Using Sql Server
 http://rhnh.net/2010/10/10/rails-3-ruby-1-9-2-windows-2008-and-sql-server-2008-tutorial
 https://github.com/rails-sqlserver/activerecord-sqlserver-adapter
