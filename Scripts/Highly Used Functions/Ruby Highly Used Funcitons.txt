@@ -98,6 +98,11 @@ git push -u origin master
 git pull origin master
 
 
+# Bitbucket - unlimited private repositories; uses git commands
+git remote add origin git@bitbucket.org:TadPeterson/workspace.git
+git push -u origin --all
+
+
 
 
 
