@@ -197,6 +197,18 @@ and start of
 https://www.youtube.com/watch?v=ZPh19YUbC3A
 
 
+
+
+# Starting Rails Server on Cloud9 Evnvironment
+rails server -b $IP -p $PORT
+
+
+
+
+
+
+
+
 # Preparing to deploy to production from cloud9
 bundle install --without production
 
