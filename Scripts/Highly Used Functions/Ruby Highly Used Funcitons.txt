@@ -197,10 +197,22 @@ and start of
 https://www.youtube.com/watch?v=ZPh19YUbC3A
 
 
-# Deploying to Development
+# Preparing to deploy to production from cloud9
 bundle install --without production
 
+heroku version
+heroku login
+heroku keys:add
+heroku create
+
+git remote -v
+
+git remote add heroku git@heroku.com:AppNameAfterCreate.git
+git remote add heroku git@heroku.com:blooming-depths-94711.git
+git push heroku master
+
+https://blooming-depths-94711.herokuapp.com/
 
 
-# Deploying to Production
+
 
