@@ -198,6 +198,9 @@ https://www.youtube.com/watch?v=ZPh19YUbC3A
 
 
 
+# Creating a new rails app in cloud9
+rails _5.0.0.1_ new toy_app
+
 
 # Starting Rails Server on Cloud9 Evnvironment
 rails server -b $IP -p $PORT
@@ -226,5 +229,7 @@ git push heroku master
 https://blooming-depths-94711.herokuapp.com/
 
 
-
-
+# Deploying changes to production Heroku
+heroku login
+git commit -a -m "Spanish Hello"
+git push heroku master
