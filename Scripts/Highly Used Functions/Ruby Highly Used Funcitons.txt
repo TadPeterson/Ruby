@@ -197,4 +197,10 @@ and start of
 https://www.youtube.com/watch?v=ZPh19YUbC3A
 
 
+# Deploying to Development
+bundle install --without production
+
+
+
+# Deploying to Production
 
